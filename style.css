@@ -1,0 +1,56 @@
+body{
+    background-color: #1a1a1d;
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.form img{
+    max-width: 300px;
+    width: 100%;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form input[type=password]{
+    padding-left: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ff0000;
+}
+
+.form textarea{
+    padding: 30px;
+    resize: vertical;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    font-size: 14px;
+    max-width: 450px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ff0000;
+}
+
+.form input[type=submit]{
+    padding-left: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 20px;
+    font-size: 14px;
+    max-width: 500px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    width: 100%;
+    height: 35px;
+    border: 0;
+}
